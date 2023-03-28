@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Open Sans";
-    src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff");
+    src: url("../fonts/OpenSans-Regular.woff");
     font-weight: 400;
   }
   
   @font-face {
       font-family: "Open Sans";
-    src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff");
+    src: url("../fonts/OpenSans-Bold.woff");
     font-weight: 700;
   }
   
@@ -18,7 +18,7 @@
   }
   
   header {
-    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+    background-image: url("../images/banner-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -109,7 +109,7 @@
   }
   
   .last_post:last-child {
-    margin-bottom: 0px; /* крайнее замечание от 15.02.23 */
+    margin-bottom: 0px;
   }
   
   .img_last_post {
@@ -272,7 +272,7 @@
     border: none;
     width: 48px;
     height: 48px;
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/search.svg);
+    background-image: url(../svg/search.svg);
     background-repeat: no-repeat;
     background-size: 16px;
     background-position: center;
@@ -282,7 +282,7 @@
   .search_field {  
     box-sizing: border-box;
     padding-left: 18px;
-    padding-right: 18px; /* замечание №2 */
+    padding-right: 18px;
     width: 222px;
     height: 48px;
     font-size: 13px;
@@ -305,9 +305,9 @@
     height: 50px;
     margin-bottom: 15px;
     padding-left: 18px;
-    padding-right: 18px; /* замечание №2 */
+    padding-right: 18px;
     background-color: #f4f7f6;
-    border: none; /* замечание №4 */
+    border: none;
   }
   
   .form_mailing_button {
@@ -317,7 +317,7 @@
     font-weight: 700;
     color: white;
     background-color: #b59f5b;
-    border: none; /* замечание №4 */
+    border: none;
   }
   
   .form_mailing_button:hover {
@@ -411,7 +411,7 @@
   }
   
   .social_icon {
-    margin: auto 15px; /* замечание №5 */
+    margin: auto 15px;
   }
   
   .social_icon_link {
@@ -425,15 +425,15 @@
   }
   
   .dribbble {  
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-dribbble.svg);
+    background-image: url(../svg/001-dribbble.svg);
   }
   
   .pinterest{
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-pinterest.svg);
+    background-image: url(../svg/002-pinterest.svg);
   }
   
   .tumblr {
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg);
+    background-image: url(../svg/003-tumblr.svg);
   }
   
   .visually_hidden {
