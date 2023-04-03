@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Open Sans";
-  src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff");
+  src: url(../fonts/OpenSans-Regular.woff);
   font-weight: 400;
 }
 
 @font-face {
 	font-family: "Open Sans";
-  src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff");
+  src: url(../fonts/OpenSans-Bold.woff);
   font-weight: 700;
 }
 
@@ -18,7 +18,7 @@
 }
 
 header {
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+  background-image: url(../images/banner-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -273,7 +273,7 @@ header::after {
   border: none;
   width: 48px;
   height: 48px;
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/search.svg);
+  background-image: url(../svg/search.svg);
   background-repeat: no-repeat;
   background-size: 16px;
   background-position: center;
@@ -427,15 +427,15 @@ header::after {
 }
 
 .dribbble {  
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-dribbble.svg);
+  background-image: url(../svg/001-dribbble.svg);
 }
 
 .pinterest{
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-pinterest.svg);
+  background-image: url(../svg/002-pinterest.svg);
 }
 
 .tumblr {
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg);
+  background-image: url(../svg/003-tumblr.svg);
 }
 
 .visually_hidden {
@@ -500,7 +500,7 @@ header::after {
 }
 
 .trend_1 {
-  background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/trend1.jpg");
+  background-image: url(../images/trend1.jpg);
   background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -508,7 +508,7 @@ header::after {
 }
 
 .trend_2 {
-  background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/trend1.jpg");
+  background-image: url(../images/trend2.jpg);
   background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -516,7 +516,7 @@ header::after {
 }
 
 .trend_3 {
-  background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/trend1.jpg");
+  background-image: url(../images/trend3.jpg);
   background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -524,7 +524,7 @@ header::after {
 }
 
 .trend_4 {
-  background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/trend1.jpg");
+  background-image: url(../images/trend4.jpg);
   background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
