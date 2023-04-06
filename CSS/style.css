@@ -28,7 +28,7 @@ header {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   padding: 0 15px;
   margin: auto;
   z-index: 30;
@@ -98,7 +98,7 @@ header::after {
 }
 
 .main {
-  width: 778px;
+  max-width: 778px;
   margin: 0 125px 0 auto;
   flex-grow: 1;
 }
@@ -114,7 +114,7 @@ header::after {
 }
 
 .img_last_post {
-  width: 380px;
+  max-width: 100%;
   object-fit: contain;
 }
 
@@ -544,15 +544,17 @@ header::after {
   border: 3px solid #b59f5b;
 }
 
-.products {
+/*.products {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-}
+}*/
 
 .products_articles {
+  max-width: 1200px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin: 0 auto;
   gap: 10%;
 }
 
@@ -563,7 +565,7 @@ header::after {
 }
 
 .product_imgbox {
-  width: 300px;
+ max-width: 100%;
 	object-fit: cover;
 	object-position: center;
 }
@@ -836,6 +838,7 @@ header::after {
   .btn:focus {
     outline: 1px solid #323232;
   }
+
 @media (max-width:768px) {
   
    .menu_list {
