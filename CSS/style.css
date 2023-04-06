@@ -836,3 +836,88 @@ header::after {
   .btn:focus {
     outline: 1px solid #323232;
   }
+
+@media (max-width: 360px) {
+ 
+  .title {
+    font-size: 26px;
+  }
+  
+  .title_trends_products {
+    font-size: 16px;
+  }
+  
+  .title_post {
+    font-size: 16px;
+  }
+  
+  .trend_post {
+    width: 100%;
+    margin-top: 2px;
+  }
+   
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+      
+  }
+  .info_post {
+    margin-left: 0;
+  }
+  
+  .product {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    /*flex-direction: column;*/
+    width: 100%;
+    padding: 0 35px;
+    margin-bottom: 45px;
+  }
+  
+  .img_last_post {
+    width: 100%;
+  }
+  
+  .shop_img {
+    width: 100%;
+  }
+  
+  .info_post {
+    width: 100%;
+  }
+  
+  .last_post:last-child {
+    margin-bottom: 60px;
+  }
+  
+ /* .burger_btn {
+    display: block;
+    position: relative;
+    width: 23px;
+    height: 20px;
+  }
+  .burger_btn span {
+    position: absolute;
+    background-color: #fffff;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    top: 9px;
+  }
+  
+  .burger_btn::before,
+  .burger_btn::after {
+    content: "";
+    background-color: #fffff;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 0;
+  }
+  .burger_btn::before {
+    top: 0;
+  }
+  .burger_btn::after {
+    bottom: 0;
+  }*/
+}
