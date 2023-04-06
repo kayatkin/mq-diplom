@@ -836,7 +836,84 @@ header::after {
   .btn:focus {
     outline: 1px solid #323232;
   }
+@media (max-width:768px) {
+  
+   .menu_list {
+    display: none;
+  }
+  
+  .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+  .title {
+    width: 100%;
+    font-size: 40px;
+  }
+  
+  .main {
+    margin: 0 0 0 auto;
+    flex-grow: 1;
+}
+  .title_trends_products {
+    font-size: 18px;
+  }
+  
+  .teg_topic_item {
+  margin-top: 16px;
+  }
+  
+  .info_post {
+    margin-left: 0;
+  }
+  
+  .trends_articles {
+    flex-wrap: wrap;
+  }
+  .trend_post {
+    width: calc(50% - 1.5px);
+    margin-top: 2px;
+  }
+  .title_post {
+    font-size: 17px;
+  }
+  .product_name {
+    font-size: 17px;
+  }
+  
+  .second_container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .last_post {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .products_articles {
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+  }
+  .footer {
+    display: flex;
+    width: 100%;
+  }
+}
 
+@media (max-width:768px) and (orientation: portrait) {
+  
+}
 @media (max-width: 360px) {
  
   .title {
