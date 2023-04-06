@@ -921,3 +921,11 @@ header::after {
     bottom: 0;
   }*/
 }
+
+@media (max-width:360px) and (orientation: landscape) {
+       
+  .trend_post {
+    width: calc(50% - 1.5px);
+    margin-top: 2px;
+  }
+}
