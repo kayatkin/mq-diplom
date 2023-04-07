@@ -905,7 +905,7 @@ header::after {
   .product {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: calc(50% - 5px);
     
   }
   .footer {
