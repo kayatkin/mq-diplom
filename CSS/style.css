@@ -897,15 +897,15 @@ header::after {
   
   .products_articles {
     
-    /*width: 100%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-  }*/
+  }
   
   .product {
     display: flex;
     flex-wrap: wrap;
-    width: calc(50% - 5px);
+    width: 100%;
     
   }
   .footer {
