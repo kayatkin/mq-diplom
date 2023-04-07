@@ -897,10 +897,10 @@ header::after {
   
   .products_articles {
     
-    width: 100%;
+    /*width: 100%;
     display: flex;
     flex-wrap: wrap;
-  }
+  }*/
   
   .product {
     display: flex;
