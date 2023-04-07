@@ -914,6 +914,9 @@ header::after {
   }
 }
 
+.last_post:last-child {
+    margin-bottom: 60px;
+
 @media (max-width:768px) and (orientation: portrait) {
   
 }
@@ -966,9 +969,9 @@ header::after {
     width: 100%;
   }
   
-  .last_post:last-child {
+  /*.last_post:last-child {
     margin-bottom: 60px;
-  }
+  }*/
   
  /* .burger_btn {
     display: block;
