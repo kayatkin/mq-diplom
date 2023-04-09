@@ -776,9 +776,9 @@ header::after {
     }
 }
 
-@media (max-width:768px) and (orientation: portrait) {
+@media (max-width:768px) and (orientation: landscape) {
     .trend_post {
-        width: calc(25% - 3px);
+        width: calc(50% - 1.5px);
     }
 }
 
