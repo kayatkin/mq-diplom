@@ -796,7 +796,9 @@ header::after {
         width: 270px;
     }
     .top {
+        min-height: 250px;
         flex-direction: column-reverse;
+        justify-content: space-between;
     }
 
     .container {
