@@ -583,15 +583,15 @@ header::after {
 
 /* FOOTER */
 
-.footer {
+/*.footer {
     margin-top: 64px;
     margin-bottom: 40px;
     position: relative;
-}
+}*/
 
 .footer_container {
     max-width: 1200px;
-    /*margin: 64px auto 40px;*/
+    margin: 64px auto 40px;
     padding: 0 15px;
 }
 
