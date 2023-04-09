@@ -179,7 +179,7 @@ header::after {
 .second_container {
     display: flex;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto 64px;
     padding: 64px 15px 0px;
     justify-content: space-between;
 }
