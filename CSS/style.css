@@ -790,7 +790,6 @@ header::after {
 
     header {
         background-image: url(../images/banner-mobile.jpg)
-        min-height: 640px;
     }
     
     .logo {
