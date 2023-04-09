@@ -308,9 +308,15 @@
         <h2 class="title_trends_products"><a href="#0" class="chapter_title_link">наши изделия</a></h2>
         <div class="products_articles">
             <article class="product">
-                <div class="product_imgbox">
+                <picture class="product_imgbox">
+                    <source
+                        media="(max-width: 768px)"
+                        srcset="images/shop-item-tablet1.jpg">
+                    <source
+                        media="(max-width: 360px)"
+                        srcset="images/shop-item-mobile1.jpg">
                     <img class="shop_img" src="images/shop-item-desk1.jpg" alt="подушка">
-                </div>
+                </picture>
                 <div class="product_body">
                     <h3 class="product_name"><a class="product_name_link" href="#0">подушки на диван</a></h3>
                     <p class="product_info">Набор из двух подушек с модными принтами. Видео о создании <a
