@@ -186,7 +186,7 @@ header::after {
 
 .main {
     max-width: 778px;
-    margin: 0 125px 0 auto;
+    margin: 0 25px 0 auto;
     flex-grow: 1;
 }
 
@@ -728,6 +728,7 @@ header::after {
 
     .second_container {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
     }
 
