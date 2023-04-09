@@ -789,7 +789,7 @@ header::after {
 @media (max-width: 360px) {
 
     header {
-        background-image: url(../images/banner-mobile.jpg)
+        background-image: url(../images/banner-mobile.jpg);
     }
     
     .logo {
