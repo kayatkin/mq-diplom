@@ -186,7 +186,7 @@ header::after {
 
 .main {
     max-width: 778px;
-    margin: 0 25px 0 auto;
+    margin: 0 25px 0 0;
     flex-grow: 1;
 }
 
