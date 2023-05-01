@@ -787,7 +787,7 @@ header::after {
     }
 }
 
-@media (max-width: 641px) {
+@media (max-width: 640px) {
 
     header {
         background-image: url(../images/banner-mobile.jpg);
@@ -923,7 +923,7 @@ header::after {
     }
 }
 
-@media (max-width:641px) and (orientation: landscape) {
+@media (max-width:640px) and (orientation: landscape) {
 
     .trend_post {
         width: calc(50% - 1.5px);
