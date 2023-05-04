@@ -478,7 +478,7 @@ header::after {
 .products {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 35px;
+    padding: 0 15px;
 }
 
 .products_articles {
@@ -757,6 +757,10 @@ header::after {
 
     .last_post:last-child {
         margin-bottom: 20px;
+    }
+    
+    .products {
+        padding: 0 35px;
     }
 
     .products_articles {
