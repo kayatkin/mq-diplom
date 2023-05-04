@@ -920,7 +920,7 @@ header::after {
     }
 
     .shop_img {
-        width: 100%;
+        max-width: 100%;
     }
 }
 
