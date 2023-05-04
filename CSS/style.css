@@ -773,7 +773,7 @@ header::after {
     }
     
     .shop_img {
-        width: 100%;
+        max-width: 100%;
     }
 
     .footer {
@@ -917,10 +917,6 @@ header::after {
 
     .product_body {
         flex-grow: 1;
-    }
-
-    .shop_img {
-        max-width: 100%;
     }
 }
 
