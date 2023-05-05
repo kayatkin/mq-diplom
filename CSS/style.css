@@ -835,6 +835,10 @@ header::after {
         width: 100%;
         flex-wrap: wrap;
     }
+    
+    .second_container {
+        padding: 0 15px 0;
+    }
 
     .info_post {
         display: flex;
