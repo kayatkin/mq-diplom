@@ -729,7 +729,7 @@ header::after {
     }
 
     .second_container {
-        /*padding: 64px 35px 0px;*/
+        padding: 64px 35px 0px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
