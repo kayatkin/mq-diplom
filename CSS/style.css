@@ -180,7 +180,7 @@ header::after {
     display: flex;
     max-width: 1200px;
     margin: 0 auto 64px;
-    padding: 64px 15px 0px;
+    /*padding: 64px 15px 0px;*/
     justify-content: space-between;
 }
 
