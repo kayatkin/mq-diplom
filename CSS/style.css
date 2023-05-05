@@ -887,7 +887,7 @@ header::after {
     }
       
     .search_field {  
-        width: 282px;
+        /*width: 282px;*/
     }
       
     .search {  
