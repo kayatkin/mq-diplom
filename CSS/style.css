@@ -480,16 +480,16 @@ header::after {
 /* OUR PRODUCT */
 
 .products {
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 35px;
+    padding: 0 40px;
 }
 
 .products_articles {
     display: flex;
     flex-wrap: wrap;
-    /*justify-content: center;
-    gap: 10%;*/
+    justify-content: space-between;
+    /*gap: 10%;*/
 }
 
 .product {
