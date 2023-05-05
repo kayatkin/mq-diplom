@@ -937,6 +937,10 @@ header::after {
     .product_body {
         flex-grow: 1;
     }
+    
+    .footer_container {
+        padding: 0 15px;
+    }
 }
 
 @media (max-width:640px) and (orientation: landscape) {
