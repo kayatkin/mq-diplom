@@ -178,8 +178,8 @@ header::after {
 
 .second_container {
     display: flex;
-    max-width: 1200px;
-    margin: 0 auto 64px;
+    max-width: 1170px;
+    margin: 64px auto 64px;
     /*padding: 64px 15px 0px;*/
     justify-content: space-between;
 }
@@ -729,7 +729,7 @@ header::after {
     }
 
     .second_container {
-        padding: 64px 35px 0px;
+        padding: 0 35px 0;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
