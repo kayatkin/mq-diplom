@@ -349,6 +349,10 @@ header::after {
     height: 48px;
 }
 
+.search_form {
+    width: 100%;
+}
+
 .hidden {
     width: 1px;
     height: 1px;
@@ -358,7 +362,7 @@ header::after {
 
 .search_button {
     border: none;
-    width: 48px;
+    min-width: 48px;
     height: 48px;
     background-image: url(../svg/search.svg);
     background-repeat: no-repeat;
@@ -371,7 +375,7 @@ header::after {
     box-sizing: border-box;
     padding-left: 18px;
     padding-right: 18px;
-    width: 222px;
+    width: 230px;
     height: 48px;
     font-size: 13px;
     border: none;
@@ -887,11 +891,11 @@ header::after {
     }
       
     .search_field {  
-        /*width: 282px;*/
+        width: 100%;
     }
       
     .search {  
-        /*width: 100%;*/
+        width: 100%;
         justify-content: space-between;
     }
       
