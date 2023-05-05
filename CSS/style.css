@@ -790,6 +790,10 @@ header::after {
         margin-top: 22px;
         width: 100%;
     }
+    
+    .footer_container {
+        padding: 0 35px;
+    }
 }
 
 @media (max-width:1200px) and (orientation: landscape) {
